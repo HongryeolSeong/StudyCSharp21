@@ -27,6 +27,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NewTypeCastApp", "NewTypeCa
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NewOverrideTestApp", "NewOverrideTestApp\NewOverrideTestApp.csproj", "{53C62788-4A07-47F8-935A-874EA3AE87BF}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TupleTestApp", "TupleTestApp\TupleTestApp.csproj", "{2C911459-99DF-4DB7-BC5C-E64113A5138A}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -81,6 +83,10 @@ Global
 		{53C62788-4A07-47F8-935A-874EA3AE87BF}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{53C62788-4A07-47F8-935A-874EA3AE87BF}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{53C62788-4A07-47F8-935A-874EA3AE87BF}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2C911459-99DF-4DB7-BC5C-E64113A5138A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2C911459-99DF-4DB7-BC5C-E64113A5138A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2C911459-99DF-4DB7-BC5C-E64113A5138A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2C911459-99DF-4DB7-BC5C-E64113A5138A}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
