@@ -10,6 +10,11 @@ namespace Chap12
     {
         static void Main(string[] args)
         {
+            int[] arr = { 1, 2, 3, };
+            for (int i = 0; i < 5; i++) // 예외 발생
+            {
+                Console.WriteLine($"{i} 번째 값 : {arr[i]}");
+            }
         }
     }
 }
