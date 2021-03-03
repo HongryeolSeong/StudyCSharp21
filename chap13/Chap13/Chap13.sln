@@ -5,9 +5,13 @@ VisualStudioVersion = 16.0.31019.35
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Chap13", "Chap13\Chap13.csproj", "{617BE0DB-E10C-44ED-A4DC-5525EBBB11AA}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CallbackTestApp", "CallbackTestApp\CallbackTestApp.csproj", "{6179C03A-B346-47B0-9C69-A700FCF70846}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CallbackTestApp", "CallbackTestApp\CallbackTestApp.csproj", "{6179C03A-B346-47B0-9C69-A700FCF70846}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DelegateChainApp", "DelegateChainApp\DelegateChainApp.csproj", "{0F47646F-56E5-48AA-85A5-C7CC7D6C97CB}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DelegateChainApp", "DelegateChainApp\DelegateChainApp.csproj", "{0F47646F-56E5-48AA-85A5-C7CC7D6C97CB}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DelegateChain2App", "DelegateChain2App\DelegateChain2App.csproj", "{784C95AC-5B6B-4818-9E14-1F77FACAA397}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "UsingEventApp", "UsingEventApp\UsingEventApp.csproj", "{7726E595-AE37-4F19-AAA1-83DA6FD7F127}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -27,6 +31,14 @@ Global
 		{0F47646F-56E5-48AA-85A5-C7CC7D6C97CB}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{0F47646F-56E5-48AA-85A5-C7CC7D6C97CB}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{0F47646F-56E5-48AA-85A5-C7CC7D6C97CB}.Release|Any CPU.Build.0 = Release|Any CPU
+		{784C95AC-5B6B-4818-9E14-1F77FACAA397}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{784C95AC-5B6B-4818-9E14-1F77FACAA397}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{784C95AC-5B6B-4818-9E14-1F77FACAA397}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{784C95AC-5B6B-4818-9E14-1F77FACAA397}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7726E595-AE37-4F19-AAA1-83DA6FD7F127}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7726E595-AE37-4F19-AAA1-83DA6FD7F127}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7726E595-AE37-4F19-AAA1-83DA6FD7F127}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7726E595-AE37-4F19-AAA1-83DA6FD7F127}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
