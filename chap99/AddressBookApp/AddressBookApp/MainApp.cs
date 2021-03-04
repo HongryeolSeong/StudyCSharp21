@@ -21,7 +21,6 @@ namespace AddressBookApp
                 while (true) // 무한 반복
                 {
                     Console.Clear();
-                    Console.WriteLine(Environment.CurrentDirectory);
                     manager.PrintMenu();
                     int menuNum = manager.SelectMenu();
 
@@ -58,7 +57,7 @@ namespace AddressBookApp
                         case 6: // 6. 프로그램 종료
                                 // 주소록을 다시 파일에 씀
                                 // 실행파일과 같은 위치
-
+                            filemanager.WriteData(manager.listAddress);
                             Environment.Exit(0);
                             break;
 
