@@ -113,6 +113,8 @@ namespace AddressBookApp
                     Console.Write("주소 재입력 : ");
                     string uAddress = Console.ReadLine();
 
+                    Console.WriteLine("주소 수정 완료!");
+
                     if (string.IsNullOrEmpty(uName) || string.IsNullOrEmpty(uPhone))
                     {
                         Console.WriteLine("빈 값은 입력할 수 없습니다.");
