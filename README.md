@@ -74,6 +74,6 @@ PKNU C# 학습 리포지토리
 ---
 
 6. 프로그램 종료 
-###### - 작업을 마치고 프로그램 
+###### - 작업을 마치고 프로그램 종료
 
 ![결과10](https://github.com/HongryeolSeong/StudyCSharp21/blob/main/chap99/RefImg/6.%ED%94%84%EB%A1%9C%EA%B7%B8%EB%9E%A8%EC%A2%85%EB%A3%8C.png "종료")
