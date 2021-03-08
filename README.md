@@ -17,7 +17,7 @@ PKNU C# 학습 리포지토리
 
 1. 주소 입력
 
-#### 성홍렬, 김영훈 주소 
+-- 성홍렬, 김영훈 주소 
 
 ![결과2](https://github.com/HongryeolSeong/StudyCSharp21/blob/main/chap99/RefImg/1-1.%EC%A3%BC%EC%86%8C%EC%9E%85%EB%A0%A5.png "주소 입력1")
 <br>
