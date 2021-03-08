@@ -24,6 +24,8 @@ PKNU C# 학습 리포지토리
 <br>
 <br>
 
+---
+
 2. 주소 검색
 
 ![결과4](https://github.com/HongryeolSeong/StudyCSharp21/blob/main/chap99/RefImg/2-1.%EC%A3%BC%EC%86%8C%EA%B2%80%EC%83%89.png "주소 검색1")
