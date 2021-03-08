@@ -40,14 +40,14 @@ namespace UsingControlsApp
             this.PrbDisplay = new System.Windows.Forms.ProgressBar();
             this.TrbHandle = new System.Windows.Forms.TrackBar();
             this.groupBox3 = new System.Windows.Forms.GroupBox();
-            this.BtnModal = new System.Windows.Forms.Button();
-            this.BtnModaless = new System.Windows.Forms.Button();
             this.BtnMsgBox = new System.Windows.Forms.Button();
+            this.BtnModaless = new System.Windows.Forms.Button();
+            this.BtnModal = new System.Windows.Forms.Button();
             this.groupBox4 = new System.Windows.Forms.GroupBox();
-            this.TrvDummy = new System.Windows.Forms.TreeView();
-            this.LsvDummy = new System.Windows.Forms.ListView();
-            this.BtnAddRoot = new System.Windows.Forms.Button();
             this.BtnAddChild = new System.Windows.Forms.Button();
+            this.BtnAddRoot = new System.Windows.Forms.Button();
+            this.LsvDummy = new System.Windows.Forms.ListView();
+            this.TrvDummy = new System.Windows.Forms.TreeView();
             this.groupBox1.SuspendLayout();
             this.groupBox2.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.TrbHandle)).BeginInit();
@@ -158,15 +158,15 @@ namespace UsingControlsApp
             this.groupBox3.TabStop = false;
             this.groupBox3.Text = "Modal, Modaless";
             // 
-            // BtnModal
+            // BtnMsgBox
             // 
-            this.BtnModal.Location = new System.Drawing.Point(6, 20);
-            this.BtnModal.Name = "BtnModal";
-            this.BtnModal.Size = new System.Drawing.Size(75, 23);
-            this.BtnModal.TabIndex = 0;
-            this.BtnModal.Text = "Modal";
-            this.BtnModal.UseVisualStyleBackColor = true;
-            this.BtnModal.Click += new System.EventHandler(this.BtnModal_Click);
+            this.BtnMsgBox.Location = new System.Drawing.Point(203, 20);
+            this.BtnMsgBox.Name = "BtnMsgBox";
+            this.BtnMsgBox.Size = new System.Drawing.Size(175, 23);
+            this.BtnMsgBox.TabIndex = 2;
+            this.BtnMsgBox.Text = "MessageBox";
+            this.BtnMsgBox.UseVisualStyleBackColor = true;
+            this.BtnMsgBox.Click += new System.EventHandler(this.BtnMsgBox_Click);
             // 
             // BtnModaless
             // 
@@ -178,15 +178,15 @@ namespace UsingControlsApp
             this.BtnModaless.UseVisualStyleBackColor = true;
             this.BtnModaless.Click += new System.EventHandler(this.BtnModaless_Click);
             // 
-            // BtnMsgBox
+            // BtnModal
             // 
-            this.BtnMsgBox.Location = new System.Drawing.Point(203, 20);
-            this.BtnMsgBox.Name = "BtnMsgBox";
-            this.BtnMsgBox.Size = new System.Drawing.Size(175, 23);
-            this.BtnMsgBox.TabIndex = 2;
-            this.BtnMsgBox.Text = "MessageBox";
-            this.BtnMsgBox.UseVisualStyleBackColor = true;
-            this.BtnMsgBox.Click += new System.EventHandler(this.BtnMsgBox_Click);
+            this.BtnModal.Location = new System.Drawing.Point(6, 20);
+            this.BtnModal.Name = "BtnModal";
+            this.BtnModal.Size = new System.Drawing.Size(75, 23);
+            this.BtnModal.TabIndex = 0;
+            this.BtnModal.Text = "Modal";
+            this.BtnModal.UseVisualStyleBackColor = true;
+            this.BtnModal.Click += new System.EventHandler(this.BtnModal_Click);
             // 
             // groupBox4
             // 
@@ -201,22 +201,15 @@ namespace UsingControlsApp
             this.groupBox4.TabStop = false;
             this.groupBox4.Text = "TreeView && ListView";
             // 
-            // TrvDummy
+            // BtnAddChild
             // 
-            this.TrvDummy.Location = new System.Drawing.Point(6, 20);
-            this.TrvDummy.Name = "TrvDummy";
-            this.TrvDummy.Size = new System.Drawing.Size(182, 247);
-            this.TrvDummy.TabIndex = 0;
-            // 
-            // LsvDummy
-            // 
-            this.LsvDummy.HideSelection = false;
-            this.LsvDummy.Location = new System.Drawing.Point(196, 20);
-            this.LsvDummy.Name = "LsvDummy";
-            this.LsvDummy.Size = new System.Drawing.Size(182, 247);
-            this.LsvDummy.TabIndex = 1;
-            this.LsvDummy.UseCompatibleStateImageBehavior = false;
-            this.LsvDummy.View = System.Windows.Forms.View.Details;
+            this.BtnAddChild.Location = new System.Drawing.Point(102, 273);
+            this.BtnAddChild.Name = "BtnAddChild";
+            this.BtnAddChild.Size = new System.Drawing.Size(86, 23);
+            this.BtnAddChild.TabIndex = 3;
+            this.BtnAddChild.Text = "자식 추가";
+            this.BtnAddChild.UseVisualStyleBackColor = true;
+            this.BtnAddChild.Click += new System.EventHandler(this.BtnAddChild_Click);
             // 
             // BtnAddRoot
             // 
@@ -228,15 +221,22 @@ namespace UsingControlsApp
             this.BtnAddRoot.UseVisualStyleBackColor = true;
             this.BtnAddRoot.Click += new System.EventHandler(this.BtnAddRoot_Click);
             // 
-            // BtnAddChild
+            // LsvDummy
             // 
-            this.BtnAddChild.Location = new System.Drawing.Point(102, 273);
-            this.BtnAddChild.Name = "BtnAddChild";
-            this.BtnAddChild.Size = new System.Drawing.Size(86, 23);
-            this.BtnAddChild.TabIndex = 3;
-            this.BtnAddChild.Text = "자식 추가";
-            this.BtnAddChild.UseVisualStyleBackColor = true;
-            this.BtnAddChild.Click += new System.EventHandler(this.BtnAddChild_Click);
+            this.LsvDummy.HideSelection = false;
+            this.LsvDummy.Location = new System.Drawing.Point(196, 20);
+            this.LsvDummy.Name = "LsvDummy";
+            this.LsvDummy.Size = new System.Drawing.Size(182, 247);
+            this.LsvDummy.TabIndex = 1;
+            this.LsvDummy.UseCompatibleStateImageBehavior = false;
+            this.LsvDummy.View = System.Windows.Forms.View.Details;
+            // 
+            // TrvDummy
+            // 
+            this.TrvDummy.Location = new System.Drawing.Point(6, 20);
+            this.TrvDummy.Name = "TrvDummy";
+            this.TrvDummy.Size = new System.Drawing.Size(182, 247);
+            this.TrvDummy.TabIndex = 0;
             // 
             // FrmMain
             // 

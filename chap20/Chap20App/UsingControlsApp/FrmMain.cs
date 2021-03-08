@@ -20,6 +20,18 @@ namespace UsingControlsApp
         }
 
         #region 이벤트 핸들러 영역
+        private void FrmMain_Load(object sender, EventArgs e)
+        {
+            LsvDummy.Columns.Add("Name");
+            LsvDummy.Columns.Add("Depth");
+
+            var FontsList = FontFamily.Families;
+            foreach (var font in FontsList)
+            {
+                CboFonts.Items.Add(font.Name);
+            }
+        }
+
         private void CboFonts_SelectedIndexChanged(object sender, EventArgs e)
         {
             ChangeFont();
@@ -60,7 +72,7 @@ namespace UsingControlsApp
                 Height = 100,
                 BackColor = Color.GreenYellow
             };
-            frm.Show(); // 모달창 띄우기
+            frm.Show(); // 모달리스창 띄우기
         }
 
         private void BtnMsgBox_Click(object sender, EventArgs e)
@@ -91,18 +103,7 @@ namespace UsingControlsApp
         #endregion
 
         #region 사용자 메소드 영역
-        private void FrmMain_Load(object sender, EventArgs e)
-        {
-            LsvDummy.Columns.Add("Name");
-            LsvDummy.Columns.Add("Depth");
-
-            var FontsList = FontFamily.Families;
-            foreach (var font in FontsList)
-            {
-                CboFonts.Items.Add(font.Name);
-            }
-        }
-
+        
         /// <summary>
         /// 콤보박스, 체크박스 값 변경으로 텍스트 값 폰트 바꾸기
         /// </summary>
