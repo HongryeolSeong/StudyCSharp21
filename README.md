@@ -9,7 +9,7 @@ PKNU C# 학습 리포지토리
 ## Project
 - AddressBook Application
 
-0. 초기화면
+#### 0. 초기화면
 ###### - 첫 화면
 
 ![결과1](https://github.com/HongryeolSeong/StudyCSharp21/blob/main/chap99/RefImg/0.%EC%B4%88%EA%B8%B0%ED%99%94%EB%A9%B4.png "초기 화면")
