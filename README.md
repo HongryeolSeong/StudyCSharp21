@@ -68,7 +68,9 @@ PKNU C# 학습 리포지토리
 ![결과8](https://github.com/HongryeolSeong/StudyCSharp21/blob/main/chap99/RefImg/5-1.%EC%A3%BC%EC%86%8C%EC%A0%84%EC%B2%B4%EC%B6%9C%EB%A0%A5.png "전체 출력1")
 <br>
 <br>
-
+![결과9](https://github.com/HongryeolSeong/StudyCSharp21/blob/main/chap99/RefImg/5-2.%EC%A3%BC%EC%86%8C%EC%A0%84%EC%B2%B4%EC%B6%9C%EB%A0%A52.png "전체 출력2")
+<br>
+<br>
 
 ---
 
