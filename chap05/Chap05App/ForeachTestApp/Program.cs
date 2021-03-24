@@ -24,7 +24,7 @@ namespace ForeachTestApp
             var idx = 0;
             foreach (var item in sources)
             {
-                Console.WriteLine($"sources[{idx++}] = {item}");
+                Console.WriteLine($"sources[{idx}] = {item}");
             }
 
             foreach (var item in sources)
