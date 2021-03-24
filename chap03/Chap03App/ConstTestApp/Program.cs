@@ -20,7 +20,7 @@ namespace ConstTestApp
             // PI = 6.345; // PI가 상수라 불가
 
 
-            Season mySeaon = Season.Spring; // or = (Season) 0;
+            Season mySeaon = (Season) 0;
             Console.WriteLine($"지금 계절은 {mySeaon}입니다."); // 값은 0이지만 문자로 출력
 
             int a = 0;
