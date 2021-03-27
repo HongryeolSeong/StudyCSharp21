@@ -31,7 +31,7 @@ namespace LoopTestApp
                 Console.WriteLine($"i 값은 {i}");
             }
 
-            Console.WriteLine("forr문 ");
+            Console.WriteLine("for문 ");
             for (int i = 10; i >= 0; i--)
             {
                 Console.WriteLine($"i 값은 {i}");
