@@ -7,7 +7,7 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "01_Chap07App", "Chap07App\0
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CalcTestApp", "CalcTestApp\CalcTestApp.csproj", "{371FAB4F-507A-4F06-A470-BD7A8A67D78A}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "StaticTestApp", "StaticTestApp\StaticTestApp.csproj", "{58A71227-0EDC-4368-8739-83781946A4EF}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "02_StaticTestApp", "StaticTestApp\02_StaticTestApp.csproj", "{58A71227-0EDC-4368-8739-83781946A4EF}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AccessModifierTestApp", "AccessModifierTestApp\AccessModifierTestApp.csproj", "{64B10C8F-23C4-4CE6-A87D-0FD8AD7BEA18}"
 EndProject

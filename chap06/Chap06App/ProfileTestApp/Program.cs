@@ -29,7 +29,7 @@ namespace ProfileTestApp
                 return -1;
             }
             // 프로필 출력
-            Console.WriteLine($"이름 : {name}, 폰번호 : {phone}");
+            Console.Write($"이름 : {name}, 폰번호 : {phone}");
             return 0;
         }
     }
