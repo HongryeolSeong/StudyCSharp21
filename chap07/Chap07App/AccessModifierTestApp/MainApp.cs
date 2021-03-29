@@ -45,10 +45,20 @@ namespace AccessModifierTestApp
             Boiler kitturami = new Boiler();
             var currTemp = kitturami.GetTemp();
             Console.WriteLine($"현재 온도는 {currTemp}℃ 입니다.");
+
             kitturami.SetTemp(40);
+            Console.WriteLine($"현재 온도는 {kitturami.temp}℃ 입니다.");
+
             kitturami.TurnOnBoiler();
+
             kitturami.SetTemp(59);
+            Console.WriteLine($"현재 온도는 {kitturami.temp}℃ 입니다.");
+
             kitturami.SetTemp(36);
+            Console.WriteLine($"현재 온도는 {kitturami.temp}℃ 입니다.");
+
+            kitturami.SetTemp(70);
+            Console.WriteLine($"현재 온도는 {kitturami.temp}℃ 입니다.");
 
             if (kitturami.GetTemp() >= 59)
             {

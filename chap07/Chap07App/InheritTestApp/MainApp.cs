@@ -24,7 +24,7 @@ namespace InheritTestApp
 
         /*~ Parent()
         {
-            Console.WriteLine($"{this.Name}.parent() 소멸자");
+            Console.WriteLine($"{this.Name}.parent() 소멸자"); 이제 안씀
         }*/
     }
 

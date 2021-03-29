@@ -42,16 +42,16 @@ namespace NewTypeCastApp
             mammal = new Dog();
 
             Dog ppoppi = null;
-            /*ppoppi.Name = "뽀삐";
+            ppoppi.Name = "뽀삐";
             ppoppi.Nurse();
-            ppoppi.Bark();*/
+            ppoppi.Bark();
 
             /*Cat chichi = new Cat();
             chichi.Name = "치치";
             chichi.Nurse();
             chichi.Meow();*/
 
-            if (ppoppi is Mammal)
+            /*if (ppoppi is Mammal)
             {
                 // 값형식은 long = int값;
                 Mammal mammal1 = ppoppi as Mammal; // 참조형식은 as를 써서 형변환 // 자식 -> 부모이어서 as Mamal 생략가능
@@ -64,7 +64,7 @@ namespace NewTypeCastApp
                 ppoppi = mammal as Dog;
                 ppoppi.Nurse();
                 ppoppi.Bark();
-            }
+            }*/
         }
     }
 }

@@ -7,12 +7,12 @@ namespace Chap07App
         static void Main(string[] args)
         {
             Console.WriteLine("Hello World!");
-
+            Cat cat1 = new Cat(Name: "야옹이", Color: "흰색", "남자"); // 생성과 동시에 초기화
+            cat1.Meow();
             /*//Cat cat1 = new Cat(); // 고양이 객체의 실체(instance) 생성
-            Cat cat1 = new Cat(Name: "야옹이", Color: "흰색"); // 생성과 동시에 초기화
             //cat1.Name = "Navi";
             //cat1.Color = "흰색";
-            cat1.Meow();
+            
 
             Cat Kiity = new Cat();
             Kiity.Name = "헬로키티";
