@@ -7,7 +7,7 @@ namespace LoggerTestApp
         void WriteLog(string message);
     }
 
-    class ConsoleLogger : ILogger
+    class ConsoleLogger : ILogger // 구현
     {
         public void WriteLog(string message)
         {
@@ -20,7 +20,7 @@ namespace LoggerTestApp
         void WriteLog(string format, params object[] args);
     }
 
-    class ConsoleFormatLogger : IFormattableLogger
+    class ConsoleFormatLogger : IFormattableLogger // 구현
     {
         public void WriteLog(string format, params object[] args)
         {
