@@ -26,7 +26,7 @@ namespace DelegateChain2App
         }
         static void Main(string[] args)
         {
-            ThereIsAFire fire = new ThereIsAFire(ShotOut);
+            ThereIsAFire fire = ShotOut;
             fire += new ThereIsAFire(Call119); // 기본 문법
             fire += Escape; // 약식 문법
 

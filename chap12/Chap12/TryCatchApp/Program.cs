@@ -7,7 +7,7 @@ namespace TryCatchApp
         static void Main(string[] args)
         {
             int[] arr = { 1, 2, 3 };
-            int x = 108, y = 2;
+            int x = 108, y = 0;
             int result = 0;
 
             try

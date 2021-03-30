@@ -22,7 +22,7 @@ namespace Chap10
             }
 
 
-            Console.WriteLine("크기 변경 후");
+            /*Console.WriteLine("크기 변경 후");
             Array.Resize(ref array, 6);
 
             Console.WriteLine("81 인덱스 찾기");
@@ -37,23 +37,23 @@ namespace Chap10
             for (int i = 0; i < array.Length; i++)
             {
                 Console.WriteLine($"{i}번째 값 : {array[i]}");
-            } // 배열은 이럴 때 무식한 작업이 너무 많다...
+            }*/ // 배열은 이럴 때 무식한 작업이 너무 많다...
 
-            /*Console.WriteLine($"Type of array : {array.GetType()}");
+            Console.WriteLine($"Type of array : {array.GetType()}");
             Console.WriteLine($"Base Type of array : {array.GetType().BaseType}");
 
             for (int i = 0; i < array.Length; i++)
             {
                 Console.WriteLine($"{i}번째 값 : {array[i]}");
-            }*/
+            }
 
-            /*var idx = 0;
+            var idx = 0;
             foreach (var item in array)
             {
                 Console.WriteLine($"{idx++}번째 값 : {item}");
-            }*/
+            }
 
-            /*Console.WriteLine("오름차순 정렬 후");
+            Console.WriteLine("오름차순 정렬 후");
             Array.Sort(array);
             for (int i = 0; i < array.Length; i++)
             {
@@ -67,8 +67,8 @@ namespace Chap10
                 Console.WriteLine($"{i}번째 값 : {array[i]}");
             }
 
-            int idx = Array.IndexOf(array, 74);
-            Console.WriteLine($"74의 인덱스 : {idx}");
+            /*int idx = Array.IndexOf(array, 74);
+            Console.WriteLine($"74의 인덱스 : {idx}");*/
 
             idx = Array.IndexOf(array, 100);
             Console.WriteLine($"74의 인덱스 : {idx}"); // -1은 찾는 값이 없다는 뜻
@@ -78,7 +78,7 @@ namespace Chap10
             for (int i = 0; i < array.Length; i++)
             {
                 Console.WriteLine($"{i}번째 값 : {array[i]}");
-            }*/
+            }
         }
     }
 }

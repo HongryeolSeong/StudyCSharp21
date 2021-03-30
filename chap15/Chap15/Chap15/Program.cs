@@ -23,6 +23,8 @@ namespace Chap15
         static void Main(string[] args)
         {
             int[] numbers = { 9, 2, 6, 4, 5, 3, 7, 8, 1, 10 };
+
+            // LINQ 안썼을때
             /*List<int> result = new List<int>();
 
             foreach (var item in numbers)
@@ -31,12 +33,13 @@ namespace Chap15
                 {
                     result.Add(item);
                 }
-            }*/ // LINQ 안썼을때
+            }*/
 
+            // LINQ 썼을때
             var result = from item in numbers
                          where item % 2 == 0
                          orderby item
-                         select item; // LINQ 썼을때
+                         select item;
 
             foreach (var item in result)
             {
