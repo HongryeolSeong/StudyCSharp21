@@ -36,7 +36,6 @@ namespace TextFileApp
                     sw.Close(); // write 후 close 필수
             }
 
-
             StreamReader sr = null;
 
             try
@@ -60,7 +59,6 @@ namespace TextFileApp
                     sr.Close();
                 }
             }
-            
         }
     }
 }
