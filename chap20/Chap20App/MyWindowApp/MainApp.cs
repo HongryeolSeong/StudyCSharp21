@@ -21,9 +21,10 @@ namespace MyWindowApp
             // throw new NotImplementedException();
             var result = $"sender : {sender} \r\n" +
                          $"e : {e}\r\n" +
-                         $"e.X : {e.X}, e.Y : {e.Y}" +
+                         $"e.X : {e.X}, e.Y : {e.Y}\r\n" +
                          $"Button : {e.Button}, Clicks : {e.Clicks}";
             MessageBox.Show(result);
+            //Application.Exit();
         }
 
         static void Main(string[] args)
