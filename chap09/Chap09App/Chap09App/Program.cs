@@ -18,7 +18,7 @@ namespace Chap09App
         {
             get
             {
-                return this.IValue;
+                return IValue;
             }
             set
             {
@@ -70,7 +70,7 @@ namespace Chap09App
             myClass.PrintValue();
 
             //myClass.SetValue(108);
-            myClass.IValue = 1200;
+            myClass.IValue = 108;
             myClass.PrintValue();
             //Console.WriteLine($"현재 온도는 {myClass.GetValue()}℃ 입니다.");
             Console.WriteLine($"현재 온도는 {myClass.IValue}℃ 입니다.");
