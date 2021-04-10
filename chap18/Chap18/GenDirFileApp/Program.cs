@@ -7,7 +7,7 @@ namespace GenDirFileApp
     {
         static void Main(string[] args)
         {
-            string strDir = "D:\\GitRepository\\StudyCSharp21\\SampleDir"; // 폴더/파일 생성 테스트 폴더
+            string strDir = @"D:\GitRepository\StudyCSharp21\SampleDir1"; // 폴더/파일 생성 테스트 폴더
             string strTargetDir = "SubFolder"; // 생성할 폴더명
             string strTargetFile = "readme.txt"; // 생성할 파일명
 
@@ -31,7 +31,7 @@ namespace GenDirFileApp
             }
             else
             {
-                File.Create(targetPath).Close();
+                File.Create(targetPath)/*.Close()*/;
                 Console.WriteLine("파일 생성 성공!");
             }
         }

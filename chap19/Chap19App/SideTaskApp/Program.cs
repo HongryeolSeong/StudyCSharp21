@@ -23,9 +23,9 @@ namespace SideTaskApp
                     
                     Console.WriteLine($"{Thread.CurrentThread.ManagedThreadId} : {Count} 남음");
                     Count--;
-                    Thread.Sleep(10);
+                    Thread.Sleep(10); // 1/100초
                 }
-                Console.WriteLine($"Count : {Count}"); // 0
+                Console.WriteLine($"Count : {Count}"); // 마지막으로 0일때
             }
             catch (ThreadAbortException ex)
             {
@@ -54,7 +54,7 @@ namespace SideTaskApp
             th.Start();
             th2.Start();
 
-            Thread.Sleep(100);
+            Thread.Sleep(100); // 1/10초
 
             Console.WriteLine("인터럽트!");
             th2.Interrupt();

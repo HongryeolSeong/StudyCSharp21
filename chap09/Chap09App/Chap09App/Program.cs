@@ -18,7 +18,7 @@ namespace Chap09App
         {
             get
             {
-                return IValue;
+                return this.IValue;
             }
             set
             {

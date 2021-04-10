@@ -16,7 +16,6 @@ namespace ThreadStateApp
         static void Main(string[] args)
         {
             PrintState(ThreadState.Running);
-
             PrintState(ThreadState.StopRequested);
             PrintState(ThreadState.SuspendRequested);
             PrintState(ThreadState.Suspended);

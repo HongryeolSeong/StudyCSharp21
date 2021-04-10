@@ -21,7 +21,8 @@ namespace ProgressTestApp
         {
             label1.Text = "시작";
 
-            Thread th = new Thread(() => {
+            Thread th = new Thread(() => 
+            {
                 for (int i = 0; i <= 100; i++) // <= : 작거나 같다
                 {
                     progressBar1.Value = i;

@@ -11,7 +11,7 @@ namespace TextFileApp
     {
         static void Main(string[] args)
         {
-            string filePath = "D:\\GitRepository\\StudyCSharp21\\SampleDir\\SubFolder\\a.dat"; // 텍스트 파일 생성 위치
+            string filePath = @"D:\GitRepository\StudyCSharp21\SampleDir\SubFolder\a.dat"; // 텍스트 파일 생성 위치
 
             StreamWriter sw = null;
 
@@ -36,7 +36,6 @@ namespace TextFileApp
                     sw.Close(); // write 후 close 필수
             }
 
-
             StreamReader sr = null;
 
             try
@@ -60,7 +59,6 @@ namespace TextFileApp
                     sr.Close();
                 }
             }
-            
         }
     }
 }

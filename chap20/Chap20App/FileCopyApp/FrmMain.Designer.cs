@@ -39,6 +39,7 @@ namespace FileCopyApp
             this.BtnSyncCopy = new System.Windows.Forms.Button();
             this.BtnCancel = new System.Windows.Forms.Button();
             this.PrbCopy = new System.Windows.Forms.ProgressBar();
+            this.label3 = new System.Windows.Forms.Label();
             this.SuspendLayout();
             // 
             // label1
@@ -130,11 +131,21 @@ namespace FileCopyApp
             this.PrbCopy.Size = new System.Drawing.Size(484, 23);
             this.PrbCopy.TabIndex = 9;
             // 
+            // label3
+            // 
+            this.label3.AutoSize = true;
+            this.label3.Location = new System.Drawing.Point(12, 130);
+            this.label3.Name = "label3";
+            this.label3.Size = new System.Drawing.Size(38, 12);
+            this.label3.TabIndex = 10;
+            this.label3.Text = "label3";
+            // 
             // FrmMain
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 12F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(502, 130);
+            this.ClientSize = new System.Drawing.Size(502, 163);
+            this.Controls.Add(this.label3);
             this.Controls.Add(this.PrbCopy);
             this.Controls.Add(this.BtnCancel);
             this.Controls.Add(this.BtnSyncCopy);
@@ -168,6 +179,7 @@ namespace FileCopyApp
         private System.Windows.Forms.Button BtnSyncCopy;
         private System.Windows.Forms.Button BtnCancel;
         private System.Windows.Forms.ProgressBar PrbCopy;
+        private System.Windows.Forms.Label label3;
     }
 }
 

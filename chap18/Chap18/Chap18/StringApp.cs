@@ -13,7 +13,7 @@ namespace Chap18
             Console.WriteLine($"{message1}");
             string message2 = string.Empty; // ""
             Console.WriteLine($"{message2}");
-            string oldPath = "C:\\Program Files\\Bandizip"; // 폴더ㅡ 마을 경로
+            string oldPath = "C:\\Program Files\\Bandizip"; // 폴더, 파일 경로
             string newPath = @"C:\Program Files\Bandizip";
 
             string greeting = "Hello World!";
@@ -33,7 +33,7 @@ namespace Chap18
             s3 += "world!";
             Console.WriteLine($"{s4}");
 
-            string row = "Row1\r\nRow2\r\nRow3"; // 한줄 내리기 정석
+            string row = "Row1\r\nRow2\r\nRow3\r\n"; // 한줄 내리기 정석
             Console.Write(row);
 
             string row2 = "Row11\nRow22\nRow33"; // 약식
@@ -46,8 +46,8 @@ namespace Chap18
                 "Test2" +
                 "Test3 "; // "Test. " .에서 엔터치면 자동 문자열 연결 + 나옴
             string multiline = @"New Test
-These are multiline
-end.";
+                                    These are multiline
+                                    end.";
             Console.WriteLine();
             Console.WriteLine(oldline);
             Console.WriteLine();
@@ -67,8 +67,8 @@ end.";
             Console.WriteLine("문자열 조작(함수사용)");
             string s5 = " Visual C# Express ";
             Console.WriteLine(s5);
-            Console.WriteLine(s5.Trim()); // 스페이스(여백) 삭제
             var s6 = s5.Trim(); // "Visual C# Express"
+            Console.WriteLine(s6); // 스페이스(여백) 삭제
 
             Console.WriteLine(s6.Substring(7));
             Console.WriteLine(s6.Substring(7, 2));
